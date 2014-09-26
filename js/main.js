@@ -22,6 +22,8 @@ var s,
 
         //Settings -> can be removed in your production code and change any on click actions into the keep settings function
         this.settingOptions();
+
+        // $('#big-video-wrap').toggleClass('hide-video');
     },
 
     bindUiActions: function (){
@@ -43,10 +45,10 @@ var s,
             sectionContainer: "section"
         });
 
-        //animate in video so you dont see resize
-        setTimeout( function () {
-            $('#big-video-wrap').show().animate({opacity:1});
-        }, s.videoFadeInWait );
+        // //animate in video so you dont see resize
+        // setTimeout( function () {
+        //     $('#big-video-wrap').show().animate({opacity:1});
+        // }, s.videoFadeInWait );
 
         //text slider on homepage
         $(".demo1 .rotate").textrotator({

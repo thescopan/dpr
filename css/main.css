@@ -1,4 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:600,700|Pacifico);
+/*@import url(http://fonts.googleapis.com/css?family=Raleway:600,700|Pacifico);*/
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One|Raleway:600,700);
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 /* line 1, ../sass/_one-page-scroll.scss */
 body, html {
@@ -144,7 +145,8 @@ h3 {
 
 /* line 59, ../sass/_type.sass */
 .slide-titles {
-  font-family: "Pacifico", cursive;
+  /*font-family: "Pacifico", cursive;*/
+  font-family: "Fjalla One";
   font-weight: 400;
 }
 
@@ -1195,8 +1197,8 @@ p span {
 .home {
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateZ(0);
-  background-color: #3498db;
-  background-color: rgba(52, 152, 219, 0.7);
+  /*background-color: #3498db;*/
+  background-color: rgba(52, 152, 219, 0.2);
 }
 /* line 8, ../sass/partials/_slides.sass */
 .home.full-color {
@@ -1829,11 +1831,13 @@ section {
   position: absolute;
   top: 15px;
   left: 15px;
+  z-index: 999;
 }
 /* line 43, ../sass/main.sass */
 .icon span {
   display: block;
-  font-family: "Pacifico", cursive;
+  /*font-family: "Pacifico", cursive;*/
+  font-family: "Fjalla One";
   color: white;
   font-size: 18px;
   font-size: 1.8rem;
