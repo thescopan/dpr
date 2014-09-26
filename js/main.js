@@ -14,16 +14,19 @@ var s,
 
         //initalize
         this.initalizers();
-        this.bindUiActions();
+        // this.bindUiActions();
         this.bigVideo();
-        this.editNavigation();
-        this.animateSlides();
+        // this.editNavigation();
+        // this.animateSlides();
         this.mailChimpAjax();
 
         //Settings -> can be removed in your production code and change any on click actions into the keep settings function
         this.settingOptions();
 
         // $('#big-video-wrap').toggleClass('hide-video');
+        // 
+        $('.home-phone').toggleClass('hide animated fadeInLeft');
+        $('.home-copy').toggleClass('col-sm-8 col-sm-offset-2 col-sm-6');
     },
 
     bindUiActions: function (){
@@ -46,9 +49,9 @@ var s,
         });
 
         // //animate in video so you dont see resize
-        // setTimeout( function () {
-        //     $('#big-video-wrap').show().animate({opacity:1});
-        // }, s.videoFadeInWait );
+        setTimeout( function () {
+            $('#big-video-wrap').show().animate({opacity:1});
+        }, s.videoFadeInWait );
 
         //text slider on homepage
         $(".demo1 .rotate").textrotator({

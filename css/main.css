@@ -1634,6 +1634,7 @@ p span {
 
 /* line 1, ../sass/partials/_nav.sass */
 .onepage-pagination {
+  display: none;
   z-index: 1200;
 }
 /* line 4, ../sass/partials/_nav.sass */
